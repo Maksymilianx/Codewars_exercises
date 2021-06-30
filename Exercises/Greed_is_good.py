@@ -15,8 +15,14 @@ def score(dice):
             for x in range(3):
                 del dice[dice.index(i)]
             break
-    if 1 in dice:
+    if dice.count(1) == 1:
         result += 100
-    if 5 in dice:
+    elif dice.count(1) == 2:
+        result += 200
+    if dice.count(5) == 1:
         result += 50
+    elif dice.count(5) == 2:
+        result += 100
     return result
+
+print(score([2,2,3,5,5]))
