@@ -13,5 +13,5 @@ def sum_pairs(ints, s):
             return [s - i, i]
         cache.add(i)
 
-# print(sum_pairs([1,2,3,4,5,6], 5))
+# print(sum_pairs([1,2,3,4,5,6], 6))
 
