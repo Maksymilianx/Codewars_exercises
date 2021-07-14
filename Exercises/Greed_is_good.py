@@ -4,6 +4,8 @@ def score(dice):
     :param dice: a list of dice throws
     :return: a score for a dice throws
     """
+    if type(dice) not in [list]:
+        raise TypeError("The given parameter should be a list")
     result = 0
     for i in range(1,7):
         if dice.count(i) > 2:
@@ -25,4 +27,4 @@ def score(dice):
         result += 100
     return result
 
-print(score([2,2,3,5,5]))
+print(score([1,1,1,1,1]))
