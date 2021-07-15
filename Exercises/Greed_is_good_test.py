@@ -17,6 +17,7 @@ class TestGreedIsGood(unittest.TestCase):
         self.assertEqual(score([6,1,6,1,6]),800)
         self.assertEqual(score([2,2,4,4,4]),400)
         self.assertEqual(score([1,1,1,1,1]),1200)
+        self.assertNotEqual(score([4,4,4,1,1]),1200)
 
     def test_input_value(self):
         self.assertRaises(TypeError, score, list)
