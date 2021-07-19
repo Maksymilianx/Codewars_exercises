@@ -26,5 +26,3 @@ def score(dice):
     elif dice.count(5) == 2:
         result += 100
     return result
-
-print(score([1,1,1,1,1]))
