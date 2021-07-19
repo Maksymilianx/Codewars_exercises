@@ -3,7 +3,7 @@ import unittest
 from Exercises.Mexican_Wave import wave
 
 
-class TestMexican_Wave(unittest.TestCase):
+class TestMexicanWave(unittest.TestCase):
     def test_volume_case1(self):
         result = ['Klops', 'kLops', 'klOps', 'kloPs', 'klopS']
         self.assertListEqual(wave('klops'),result)
