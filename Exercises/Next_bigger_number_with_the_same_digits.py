@@ -16,5 +16,3 @@ def next_bigger(n):
         if sorted(list(str(m))) == min_n:
             return m
     return -1
-
-# print(next_bigger(12))
