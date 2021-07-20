@@ -9,9 +9,5 @@ def solution(number):
 # After comprehension
 
 
-def solution1(number):
+def another_solution(number):
     return sum(x for x in range(number) if x % 3 == 0 or x % 5 == 0)
-
-
-print(solution(10))
-print(solution1(10))
