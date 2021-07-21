@@ -7,6 +7,3 @@ def permutations(string):
             for x in permutations(string[:i] + string[i : 1:]):
                 result.add(c + x)
     return list(result)
-
-
-print(permutations('aabb'))
