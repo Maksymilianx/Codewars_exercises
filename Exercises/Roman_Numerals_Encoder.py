@@ -11,4 +11,3 @@ def solution(n):
 
 """ divmod(n,a) takes two numbers n,a, and returns a pair of numbers (quotient and remainder)
     in our case it begins from n / 1000 so quotient is 2 and remainder 21 """
-
