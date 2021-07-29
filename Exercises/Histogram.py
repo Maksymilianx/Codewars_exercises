@@ -9,3 +9,5 @@ def histogram(s):
         return x
     except:
         TypeError
+
+print(histogram([1,2,3]))
