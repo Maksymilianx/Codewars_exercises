@@ -9,3 +9,8 @@ def find_short_words(fsw):
         if len(i) < 5:
             lst.append(i)
     return lst
+
+def FindShortWords(x):
+    return [ x for x in x if len(x) < 5 ]
+
+print(FindShortWords(['asddfff', 'asd', 'gfagaga']))
