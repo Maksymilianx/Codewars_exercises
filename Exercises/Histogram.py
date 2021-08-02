@@ -8,6 +8,6 @@ def histogram(s):
         x = "".join(lst)
         return x
     except:
-        TypeError
+        raise TypeError("Only numbers allowed")
 
-print(histogram([1,2,3]))
+print(histogram([1,2,3, 'klops']))
