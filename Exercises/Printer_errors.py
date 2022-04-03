@@ -1,3 +1,6 @@
+from re import sub
+
+
 def printer_error(s):
     allowed = "abcdefghijklm"
     errors = 0
@@ -9,3 +12,7 @@ def printer_error(s):
 
 def another_approach(s):
     return "{}/{}".format(len([x for x in s if x not in "abcdefghijklm"]), len(s))
+
+
+def regex_approach(s):
+    return f"{len(sub('[a-m]', '', s))}/{len(s)}"
