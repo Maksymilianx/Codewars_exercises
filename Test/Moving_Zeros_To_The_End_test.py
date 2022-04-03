@@ -1,6 +1,6 @@
 import unittest
 
-from Moving_Zeros_To_The_End import *
+from Exercises.Moving_Zeros_To_The_End import *
 
 
 class TestMovingZerosToTheEnd(unittest.TestCase):

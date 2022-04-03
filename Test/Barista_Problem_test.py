@@ -4,7 +4,6 @@ from Exercises.Barista_Problem import barista
 
 
 class TestBaristaProblem(unittest.TestCase):
-
     def test_volume_case1(self):
         self.assertEqual(barista([2, 10, 5, 3, 9]), 85)
 

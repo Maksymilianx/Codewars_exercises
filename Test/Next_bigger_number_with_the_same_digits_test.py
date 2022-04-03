@@ -1,6 +1,6 @@
 import unittest
 
-from Next_bigger_number_with_the_same_digits import *
+from Exercises.Next_bigger_number_with_the_same_digits import *
 
 
 class NextBigger(unittest.TestCase):

@@ -1,6 +1,6 @@
-from Valid_Parentheses import valid_parentheses
-
 from unittest import TestCase
+
+from Exercises.Valid_Parentheses import valid_parentheses
 
 
 class Test(TestCase):
